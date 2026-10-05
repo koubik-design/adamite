@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
+INSTRUCTIONS_CODEX.md
 node_modules
 dist
