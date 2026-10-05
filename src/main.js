@@ -1,4 +1,4 @@
-import './styles.css'
+import './style.css'
 
 const apiKey = import.meta.env.VITE_NASA_API_KEY || 'DEMO_KEY'
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
