@@ -1,7 +1,7 @@
 import './style.css'
 
 const apiKey = import.meta.env.VITE_NASA_API_KEY || 'DEMO_KEY'
-const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
+const apiUrl = `https://science.nasa.gov/wp-json/wp-v2/apod-basic/?api_key=${apiKey}`
 
 document.querySelector('#app').innerHTML = `
 <div class="apod-container">
